@@ -1,59 +1,39 @@
-/* Body styling */
 body {
-  background-color: #b5f1a8; /* pastel light */
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-  padding: 40px 20px;
+  background-color: #f5f5dc; 
+  font-family: Arial, sans-serif;
 }
 
-/* Invitation card container */
 .invite-card {
-  max-width: 500px;
-  background: #8ac4f8;
-  padding: 30px;
-  border-radius: 15px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  background: #fff;
+  padding: 20px;
   margin: 50px auto;
   text-align: center;
 }
 
-/* Event title */
 .invite-card h1 {
-  font-size: 2em;
-  color: #100b1c; /* purple theme */
+  color: #2c3e50;
   margin-bottom: 10px;
 }
 
-/* Subtitle */
 .invite-card h3 {
-  font-size: 1.2em;
-  color: #ea8108; /* darker purple */
-  margin-bottom: 30px;
+  color: #555;
+  margin-bottom: 20px;
 }
 
-/* Event details */
-.invite-card p {
-  font-size: 1em;
-  color: #333;
-  margin: 10px 0;
-}
-
-.invite-card span {
-  font-weight: bold;
-}
-
-/* Optional image/banner */
 .invite-card img {
   max-width: 100%;
-  border-radius: 10px;
-  margin: 20px 0;
+  margin-bottom: 20px;
 }
 
-/* RSVP footer */
+.invite-card p {
+  margin: 5px 0;
+}
+
 footer {
-  margin-top: 30px;
-  padding-top: 15px;
-  border-top: 1px solid #ddd;
+  margin-top: 20px;
   font-size: 0.9em;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
   color: #555;
 }
